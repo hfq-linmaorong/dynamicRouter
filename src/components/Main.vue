@@ -1,6 +1,6 @@
 <template>
 	<section>
-		<p class="message">页面展示</p>
+		<p class="message">页dads面展示</p>
 	</section>
 </template>
 
@@ -9,6 +9,9 @@
 		data(){
 			return {
 			}
+		},
+		created(){
+			console.log(this.$router)
 		}
 	}
 
