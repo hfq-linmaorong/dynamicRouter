@@ -48,7 +48,6 @@
       login(data){
         window.sessionStorage.setItem('user',JSON.stringify(data))
         MenuUtils(routers,data)
-        
       },
       handleSubmit2(ev) {
         var _this = this;
@@ -69,9 +68,9 @@
                 });
               } else {
                 this.login(data)
-               
                 this.$router.addRoutes(routers)
-                this.$router.push({ path: '/main' });
+                console.log(this.$router)
+                // this.$router.push({ path: '/main' });
               }
             });
           } else {

@@ -49,7 +49,7 @@ export default {
 		if (!isLoadNodes) {
 			let data = JSON.parse(window.sessionStorage.getItem('user'))
 			this.nodes.push(...data)
-			console.log(this.nodes)
+			// console.log(this.$router)
 			sessionStorage.setItem('isLoadNodes', 'true')
 		}
 	},
