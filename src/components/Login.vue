@@ -69,8 +69,7 @@
               } else {
                 this.login(data)
                 this.$router.addRoutes(routers)
-                console.log(this.$router)
-                // this.$router.push({ path: '/main' });
+                this.$router.push({ path: '/main' });
               }
             });
           } else {
